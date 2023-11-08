@@ -1,0 +1,289 @@
+@media (max-width: 1199px) {
+  .model__image {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .teachers__img {
+    border-radius: 30px 30px 0px 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .benefits__li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .model__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    color: #FFFFFF;
+  }
+
+  .model__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+  }
+
+  .benefits__text {
+    margin-left: 0;
+  }
+  
+  .benefits__li img {
+    margin-bottom: 15px;
+  }
+
+  .btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .btn-center {
+    display: flex;
+    text-align: center;
+    width: 100%;
+   }
+
+   .header-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   justify-content: center;
+  }
+
+  .header__logo {
+    margin-bottom: 31px;
+  }
+
+
+  .model__right-block {
+    display: none;
+  }
+
+  .benefits__img {
+    background-position: top;
+  }
+
+
+}
+
+@media (max-width: 576px) {
+  /* .header-flex {
+    flex-wrap: wrap;
+   justify-content: center;
+  }
+
+  .header__logo {
+    margin-bottom: 31px;
+  } */
+
+  .btn-center {
+    justify-content: center;
+    padding: 20.5px 48px;
+  }
+
+  .benefits__bottom {
+    padding: 0 33px
+  }
+
+  .benefits__top {
+    padding-left: 30px;
+    padding-right: 33px;
+  }
+
+  .model__left-block {
+    margin-left: 33px;
+  }
+
+  .teachers__container {
+    padding-left: 33px;
+    padding-right: 18px;
+  }
+
+  .benefits__top {
+    padding-right: 103px;
+  }
+
+  .teachers__img {
+    border-radius: 46px 46px 0px 0px;
+  }
+ 
+}
+
+@media (max-width: 461px) {
+  .benefits__img {
+    display: none;
+  }
+
+  .benefits__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+  }
+
+  .benefits__items {
+    
+    flex-direction: column;
+  }
+
+  .benefits__li {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .benefits__li:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .benefits-text {
+    width: 100%;
+    font-size: 16px;  
+    color: #666666; 
+  }
+
+  .teachers__title {
+    font-size: 20px;
+  }
+
+  .courses__title-main {
+    font-size: 20px;
+  }
+
+  .benefits__p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+  }
+
+  .teachers__row-487px {
+    flex-direction: column;
+    width: 100%;
+  }
+/* burger_________________________________________________________ */
+
+
+  .header-flex {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 33px;
+    padding-left: 33px;
+  }
+
+  .header__logo {
+    margin-bottom: 0;
+  }
+
+  .menu {
+    position: absolute;
+    top: 0;
+    right: -350px;
+    width: 350px;
+    padding: 75px 20px 20px 20px;
+    background-color: rgb(255, 255, 255);
+    visibility: hidden;
+    transition: transform .3s, visibility .3s;
+    z-index: 1;
+  }
+
+  .header.open .menu {
+    transform: translateX(-92%);
+    visibility: visible;
+    color: black;
+  }
+
+  .header__burger-btn {
+    display: block;
+    background-color: transparent;
+    z-index: 2;
+  }
+
+  .header__burger-btn span {
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    left: 5px;
+    background-color: white;
+    transition: transform .3s, opacity .3s, background-color .3s;
+  }
+
+  .header__burger-btn span:nth-child(1) {
+    transform: translateY(-10px);
+  }
+
+  .header__burger-btn :nth-child(2) {
+    
+  }
+
+  .header__burger-btn span:nth-child(3) {
+    transform: translateY(10px);
+  }
+
+  .header.open .header__burger-btn span {
+    background-color: black;
+  }
+
+  /* Krestik_____________ */
+  .header.open .header__burger-btn span:nth-child(1) {
+    transform: rotate(45deg);
+  }
+
+  .header.open .header__burger-btn span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .header.open .header__burger-btn span:nth-child(3) {
+    transform: rotate(-45deg);
+  }
+
+  /* Krestik_____________ */
+  .header__ul {
+    display: block;
+  }
+
+  .header__link {
+    display: block;
+    color: black;
+    font-size: 21px;
+    padding: 10px;
+  }
+
+  .model__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .model__text {
+    font-size: 16px;
+  }
+
+  .btn {
+    font-size: 16px;
+  }
+
+  .benefits__top {
+    padding-right: 30px;
+  }
+
+
+
+
+  /* burger______________________________________ */
+}
